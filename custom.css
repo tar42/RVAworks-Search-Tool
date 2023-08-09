@@ -1,3 +1,84 @@
+
+.li-resource {
+  display: inline-block; 
+}
+
+
+.li-resource {
+  border-right: 1px solid #000; 
+  padding-right: 1%;
+  padding-left: 1%;
+  width: 276px;
+}
+
+.ul-header{
+font-weight: bold;
+}
+
+ul{
+  list-style: none; 
+}
+
+.ent-txt{
+  font-weight: bold;
+  color: #14552a;
+}
+
+.resource-form {
+    opacity: .9;
+    padding: 10px 50px 25px 40px;
+    border-radius: 1%;
+    border: 1px solid #dddddd;
+}
+
+.table-header{
+  margin-top: 150px;
+  margin-left: 38%;
+}
+
+.resource-table {
+  margin: 100px auto;
+  opacity: .9;
+  padding: 25px 45px 25px 40px;
+  border-radius: 1%;
+  width: 65%;
+  border: 2px solid #dddddd;
+}
+
+.register-form {
+  margin-top: 67px;
+  padding: 1% 0px;
+  width: 50%;
+}
+
+
+.register-form input {
+  margin: 2% 0px;
+  padding: 1% 0px
+}
+
+.register-form button {
+  margin-top: 5%;
+  border-radius: 1%;
+}
+
+.dash-form {
+  width: 100%;
+}
+
+.login-form label,
+.login-form input {
+    display: block;
+}
+
+.login-form button,
+.login-form label,
+.login-form input {
+    padding: 2px;
+    font-size: medium;
+}
+
+
 .white-text {
   color: white;
   transition-duration: 0.1s;

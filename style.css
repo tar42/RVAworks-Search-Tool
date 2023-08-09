@@ -369,12 +369,12 @@ select:disabled {
   display: none;
 }
 
-button,
+/* button,
 [type=button],
 [type=reset],
 [type=submit] {
   -webkit-appearance: button;
-}
+} */
 button:not(:disabled),
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
@@ -431,7 +431,7 @@ legend + * {
 
 [type=search] {
   outline-offset: -2px;
-  -webkit-appearance: textfield;
+  /* -webkit-appearance: textfield; */
 }
 
 /* rtl:raw:
@@ -2423,7 +2423,7 @@ textarea.form-control-lg {
   background-size: contain;
   border: 1px solid rgba(0, 0, 0, 0.25);
   appearance: none;
-  color-adjust: exact;
+  /* color-adjust: exact; */
 }
 .form-check-input[type=checkbox] {
   border-radius: 0.25em;
@@ -11220,6 +11220,7 @@ textarea.form-control-lg {
   color: #000;
   background-color: #57b273;
   border-color: #57b273;
+  margin-left: 4%;
 }
 .btn-success:hover {
   color: #000;
